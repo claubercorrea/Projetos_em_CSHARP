@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    padding: 0;
+    background: url("./img/fundo.png");
+    object-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabela {
+    margin: 20% auto;
+    text-align: center;
+}
+
+.tp {
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.bt {
+    border-radius: 25px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.mark {
+    background-color: yellow;
+    color: black;
+    padding: 0 20px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+/* ========== ISSO VAI NO LAYOUT ========== */
+/* Vale para TODAS as páginas */
+
+/* BASE RESPONSIVA */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+/* BACKGROUND (todas páginas) */
+body {
+    background: url("./fundo.png");
+    background-size: cover;
+    background-attachment: fixed;
+opacity:inherit;
+
+}
+
+/* MENU RESPONSIVO (todas páginas) */
+.navbar {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+/* TABELA RESPONSIVA (vale para todas tabelas) */
+@media (max-width: 768px) {
+    .table-responsive-custom {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+/* BOTÕES GERAIS */
+.btn {
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+@media (max-width: 480px) {
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+.botao{
+display:flex;
+justify-content:center;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:auto;
+align-items:center;
+width:110vh;
+height:100%;
+
+
+}

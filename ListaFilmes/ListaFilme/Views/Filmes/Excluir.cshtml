@@ -1,0 +1,18 @@
+﻿@model ListaFilme.Models.Filme
+
+<div class="container vh-100 d-flex align-items-center justify-content-center">
+    <div class="row w-100 justify-content-center">
+        <div class="col-md-6">
+            <form method="post" asp-action="Excluir" class="text-center p-4 border rounded shadow-sm">
+                <input type="hidden" asp-for="Id" />
+
+                <h3 class="mb-4 text-white">Deseja realmente excluir este filme?</h3>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <button class="btn btn-primary px-4" type="submit">Confirmar Exclusão</button>
+                    <a asp-controller="Filmes" asp-action="Index" class="btn btn-danger px-4">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+﻿@model ListaFilme.Models.Filme
+
+<div class="container vh-90 d-flex align-items-center justify-content-center">
+    <div class="row w-100 justify-content-center">
+        <div class="col-md-5 col-lg-4">
+
+            <h1 class="text-center text-white mb-4">Editar filmes</h1>
+
+            <form method="post" asp-action="Editar" class="tp">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3 text-start">
+                    <label class="form-label text-white fw-bolder">Nome do filme</label>
+                    <input asp-for="Title" type="text" class="form-control" placeholder="Nome do filme">
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label text-white fw-bolder">Gênero</label>
+                    <select class="form-select" asp-for="Genero">
+                        <option value="">-- Todos os Gêneros --</option>
+                        <option value="Ação">Ação</option>
+                        <option value="Ação e aventura">Ação e aventura</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Ficção">Ficção</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Suspense">Suspense</option>
+                    </select>
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label text-white fw-bolder">Diretor</label>
+                    <input asp-for="Diretor" type="text" class="form-control" placeholder="Nome do Diretor">
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label text-white fw-bolder" asp-for="Duracao">Duração do filme</label>
+                    <input type="time" class="form-control border-primary" asp-for="Duracao">
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label text-white fw-bolder">Lançamento</label>
+                    <input asp-for="Lancamento" type="date" class="form-control">
+                </div>
+
+                <div class="d-flex justify-content-between mt-4 gap-3">
+                    <button type="submit" class="btn btn-warning w-50 fw-bold">Editar</button>
+                    <a asp-controller="Filmes" asp-action="Index" class="btn btn-secondary w-50">Voltar</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>  

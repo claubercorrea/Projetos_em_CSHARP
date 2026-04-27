@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\filmes\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\filmes\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\filmes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\filmes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\filmes\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\filmes\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\filmes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\filmes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\controllers\\filmescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\controllers\\filmescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\filmes\\pesquisar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\filmes\\pesquisar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\wwwroot\\css\\fundo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\wwwroot\\css\\fundo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\migrations\\20260419012341_initialatualizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\migrations\\20260419012341_initialatualizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\data\\filmecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\data\\filmecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\migrations\\20260417004117_initialatualizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\migrations\\20260417004117_initialatualizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\listafilmes\\listafilme\\migrations\\20260417001603_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5FCE3F-685B-4560-BF54-2AD650022098}|ListaFilme\\ListaFilme.csproj|solutionrelative:listafilme\\migrations\\20260417001603_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T02:20:40.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Editar.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Filmes\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Editar.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Filmes\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T06:39:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Index.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Filmes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Index.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Filmes\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwF0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T05:30:38.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Program.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Program.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Program.cs",
+              "RelativeToolTip": "ListaFilme\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:40:40.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilmesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Controllers\\FilmesController.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Controllers\\FilmesController.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Controllers\\FilmesController.cs",
+              "RelativeToolTip": "ListaFilme\\Controllers\\FilmesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswDkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:34:33.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\appsettings.json",
+              "RelativeDocumentMoniker": "ListaFilme\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\appsettings.json",
+              "RelativeToolTip": "ListaFilme\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T23:34:07.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ListaFilme\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ListaFilme\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-18T19:53:07.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adicionar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Adicionar.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Filmes\\Adicionar.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Adicionar.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Filmes\\Adicionar.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T21:54:35.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Filmes\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Excluir.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Filmes\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T06:40:09.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Filme.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Models\\Filme.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Models\\Filme.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Models\\Filme.cs",
+              "RelativeToolTip": "ListaFilme\\Models\\Filme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:17:34.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ListaFilme\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T00:16:28.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pesquisar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Pesquisar.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Filmes\\Pesquisar.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Filmes\\Pesquisar.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Filmes\\Pesquisar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T20:58:32.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ListaFilme\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-19T02:22:12.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T02:21:05.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T02:20:42.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ListaFilme\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ListaFilme\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T02:20:54.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "fundo.png",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\wwwroot\\css\\fundo.png",
+              "RelativeDocumentMoniker": "ListaFilme\\wwwroot\\css\\fundo.png",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\wwwroot\\css\\fundo.png",
+              "RelativeToolTip": "ListaFilme\\wwwroot\\css\\fundo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-19T02:41:04.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260417001603_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Migrations\\20260417001603_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Migrations\\20260417001603_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Migrations\\20260417001603_InitialCreate.cs",
+              "RelativeToolTip": "ListaFilme\\Migrations\\20260417001603_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T00:16:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FilmeContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\DATA\\FilmeContext.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\DATA\\FilmeContext.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\DATA\\FilmeContext.cs",
+              "RelativeToolTip": "ListaFilme\\DATA\\FilmeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:17:56.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ListaFilme\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ListaFilme\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-18T21:10:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260419012341_InitialAtualizado.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Migrations\\20260419012341_InitialAtualizado.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Migrations\\20260419012341_InitialAtualizado.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Migrations\\20260419012341_InitialAtualizado.cs",
+              "RelativeToolTip": "ListaFilme\\Migrations\\20260419012341_InitialAtualizado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:23:41.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260417004117_initialAtualizacao.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Migrations\\20260417004117_initialAtualizacao.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Migrations\\20260417004117_initialAtualizacao.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Migrations\\20260417004117_initialAtualizacao.cs",
+              "RelativeToolTip": "ListaFilme\\Migrations\\20260417004117_initialAtualizacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T00:41:17.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ListaFilme\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\ListaFilmes\\ListaFilme\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ListaFilme\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:31:34.191Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

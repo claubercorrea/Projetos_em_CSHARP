@@ -1,0 +1,128 @@
+﻿@*
+    View de Listagem de Filmes
+*@
+@{
+    ViewData["Titulo"] = "Lista de Filmes";
+
+    var tituloBusca = Context.Request.Query["Title"].ToString();
+    var generoBusca = Context.Request.Query["Genero"].ToString();
+}
+
+@model IEnumerable<ListaFilme.Models.Filme>
+
+<style>
+    mark {
+        background-color: yellow !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 2px 4px !important;
+        border-radius: 4px !important;
+    }
+    table{
+       
+            text-transform:capitalize;
+            margin:auto;
+    
+    }
+
+  
+</style>
+<h1 class="text-center mb-5 mt-4  text-white mp">FILMES</h1>
+<div class="card mb-4 bg-dark text-white">
+    <div class="card-body ">
+        <form method="get" asp-action="Pesquisar" id="form-buscar " >
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label class="form-label">Pesquisar</label>
+                    <input type="text" class="form-control" name="Title" id="campoTitulo"
+                           value="@tituloBusca" placeholder="Pesquisar o título do filme">
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label class="form-label">Gênero:</label>
+                    <select name="Genero" class="form-select">
+                        <option value="">-- Todos os Gêneros --</option>
+                        @{
+                            var generos = new[] { "Ação", "Aventura","Ação e aventura", "Drama", "Ficção", "Suspense", "Terror", "Comédia" };
+                            foreach (var g in generos)
+                            {
+                                if (g == generoBusca)
+                                {
+                                    <option value="@g" selected>@g</option>
+                                }
+                                else
+                                {
+                                    <option value="@g">@g</option>
+                                }
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <label class="form-label">&nbsp;</label>
+                    <button type="submit" class="btn btn-primary form-control">🔍 Buscar</button>
+                </div>
+            </div>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary">🗑️ Limpar</a>
+        <a asp-action="Adicionar" class="btn btn-success float-end">➕ Adicionar</a>
+    </div>
+</div>
+
+<table class="table bg-body text-center text-white fw-bolder mt-2">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Título</th>
+            <th scope="col">Gênero</th>
+            <th scope="col">Diretor</th>
+            <th scope="col">duração</th>
+            <th scope="col">Lançamento</th>
+            <th scope="col">Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td class="destacar">@item.Title</td>
+                <td class="destacar">@item.Genero</td>
+                <td>@item.Diretor</td>
+                <td>@item.Duracao.ToString("HH:mm")</td>
+                <td>@item.Lancamento.ToString("dd/MM/yyyy")</td>
+              
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-sm btn-secondary w-25 me-1">Editar</a>
+                    <a asp-action="Excluir" asp-route-id="@item.Id" class="btn btn-sm btn-danger w-25 ">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function grifarTexto() {
+        const termo = document.getElementById('campoTitulo').value.trim();
+        if (!termo) return;
+
+        const regex = new RegExp('(' + termo + ')', 'gi');
+        const elementos = document.querySelectorAll('.destacar');
+
+        elementos.forEach(el => {
+            const textoOriginal = el.innerText;
+            if (textoOriginal.toLowerCase().includes(termo.toLowerCase())) {
+                el.innerHTML = textoOriginal.replace(regex, '<mark>$1</mark>');
+            }
+        });
+    }
+
+    window.addEventListener('load', grifarTexto);
+
+   
+    const form = document.getElementById('form-buscar');
+    if (form) {
+        form.addEventListener('submit', function() {
+            setTimeout(grifarTexto, 100);
+        });
+    }
+</script>
