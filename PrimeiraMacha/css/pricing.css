@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+body{
+    margin:0;
+  
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-image:url("/css/img/portal.png");
+    background-size:cover;
+    background-position:center 60%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.text .header{
+    display: flex;
+    flex-direction: column;
+    align-items:flex;
+
+}
+
+header h1, h3{
+    margin:10px 0;
+    text-align:center;
+}
+
+.texto ,img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:4%;
+    text-align: center;
+}
+header h1,h3{
+    display: flex;
+}
+img{
+    padding: 0 10px ;
+}
+
+.texto h1{
+    font-size:2.12rem;
+    margin-bottom: -5px;
+    color:darkblue;
+    font-size: 3rem;
+}
