@@ -1,0 +1,70 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>Login - Produtos</title>
+</head>
+<body class="body-login">
+
+    <nav class="navbar">
+        <a asp-controller="Painel" asp-action="Index">Conta</a>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div>
+                <span style="color: white; margin-right: 15px;">
+                    Olá, @User.FindFirst("NomeUsuario")?.Value
+                </span>
+                <a asp-controller="Auth" asp-action="Logout">Sair</a>
+            </div>
+        }
+        else
+        {
+            <a asp-controller="Auth" asp-action="Login">Conta</a>
+        }
+    </nav>
+
+    <div class="container-login">
+        <form method="post" asp-action="Login">
+            <h1 class="text-white text-center">Login</h1>
+
+            <div class="input-box">
+                <label style="text-align:center;"> E-mail</label>
+                <input name="Email" placeholder="E-mail" type="email" required style="font-size:1rem; text-align:center;">
+            </div>
+
+            <div class="input-box mt-3">
+                <label>Senha</label>
+                <input name="Senha" placeholder="senha" type="password" required style="font-size:1rem; text-align:center;>
+            </div>
+
+            @if (ViewBag.Error != null)
+            {
+                <p style="color: #ffcccc; text-align: center;">@ViewBag.Error</p>
+            }
+
+            <div class="remember-forgo mt-3 ">
+
+
+           
+                <a href="#" class="text-white" style="color:white;">Esqueci a senha</a>
+            </div>
+
+            <button type="submit" class="login-btn" style="display:flex; justify-content:center; width:150px; align-items:center; margin:auto;">Login</button>
+
+            <div class="register-link   ">
+                <p class="text-warning">
+                    Não tem uma conta?
+                    <a asp-controller="Auth" asp-action="Cadastro" class="text-white registre" style="color:white;text-align:">registre-se</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html> 

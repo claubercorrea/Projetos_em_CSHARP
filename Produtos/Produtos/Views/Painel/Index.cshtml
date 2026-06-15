@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Produtos.Models.Produto>
+
+<h1 class="text-white">Bem-vindo, @User.FindFirst("NomeUsuario")?.Value!</h1>
+
+<div class="mt-4 mb-4">
+    <a asp-controller="Painel" asp-action="Salvar" class="btn btn-success">Adicionar Novo Produto</a>
+</div>
+
+<p class="text-white">Meus Produtos:</p>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table text-white">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Validade (dias)</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NomeProduto</td>
+                    <td>@item.validade</td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@item.Id" class="text-info">Editar</a> |
+                        <a asp-action="Excluir" asp-route-id="@item.Id" class="text-danger">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-white mt-3">Você ainda não possui produtos cadastrados.</p>
+}

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Produtos</title>
+    <link rel="canonical"
+          href="https://getbootstrap.com/docs/5.3/examples/sign-in/" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Produtos.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a asp-controller="Auth" asp-action="Login">Início</a>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <span>Olá, @User.FindFirst("NomeUsuario")?.Value</span>
+                <a asp-controller="Auth" asp-action="Logout">Sair</a>
+            }
+            else
+            {
+                <a asp-controller="Auth" asp-action="Login">Entrar</a>
+            }
+        </nav>
+    </header>
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class=" text-center text-white">
+            &copy; 2026 - Produtos - Direitos Autoral Clauber
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

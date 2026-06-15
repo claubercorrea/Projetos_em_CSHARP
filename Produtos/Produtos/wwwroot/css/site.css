@@ -1,0 +1,136 @@
+/* --- CONFIGURAÇÕES GERAIS --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+/* --- ESTILO PARA AS PÁGINAS DO SISTEMA (Painel, Produtos, etc) --- */
+body {
+    background: url("two-delivery-women-cooperating-while-checking-data-packages-office.jpg"); /* Fundo padrão do sistema */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('two-delivery-women-cooperating-while-checking-data-packages-office.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: #333;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: 600;
+    }
+
+.container-conteudo {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/* --- ESTILO CENTRALIZADO DO LOGIN (Apenas para o Login) --- */
+.body-login {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('two-delivery-women-cooperating-while-checking-data-packages-office.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-login {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    color: white;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+    .container-login h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+    .input-box input {
+        width: 100%;
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 40px;
+        outline: none;
+        color: white;
+        box-sizing: border-box;
+    }
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: 0.3s;
+}
+
+    .login-btn:hover {
+        background: blue;
+        color: white;
+        transform: scale(1.02);
+    }
+
+
+
+.dashboard-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+input placeholder{
+    color:white;
+    display:flex;
+    font-size:1rem;
+
+}
+.input-box{
+    text-align:center;
+
+}
+
+.register-link   {
+    text-align:center
+}

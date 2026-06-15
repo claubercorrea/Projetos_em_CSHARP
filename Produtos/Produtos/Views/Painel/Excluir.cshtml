@@ -1,0 +1,15 @@
+﻿@model Produtos.Models.Produto
+
+<h2 class="text-white">Excluir Produto</h2>
+<h3 class="text-white">Tem certeza que deseja excluir o produto "@Model.NomeProduto"?</h3>
+
+<div class="text-white">
+    <p>Empresa: @Model.Empresa</p>
+    <p>Validade: @Model.validade dias</p>
+</div>
+
+<form asp-action="Excluir">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Excluir" class="btn btn-danger" /> |
+    <a asp-action="Index" class="text-white">Cancelar</a>
+</form>

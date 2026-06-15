@@ -1,0 +1,182 @@
+﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+
+/* --- CUSTOM ERROR PAGE STYLES --- */
+
+/* Cores do Tema */
+:root {
+    --bg-dark-page: #101c31; /* Fundo navy escuro */
+    --bg-dark-card: #0c1524; /* Fundo do card técnico */
+    --text-muted-light: #a4b1c9;
+    --orange-primary: #e67e22; /* Cor de ação */
+    --orange-light: #f39c12; /* Texto técnico */
+    --blue-action: #2980b9;
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Wrapper da Página (Tema Escuro) */
+.error-page-wrapper {
+    background-color: var(--bg-dark-page);
+    color: white;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card Principal (com a borda de luz) */
+.main-error-card {
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid var(--orange-primary); /* Borda laranja simulando luz */
+    box-shadow: 0 0 20px rgba(230, 126, 34, 0.3); /* Brilho suave */
+}
+
+/* Imagem do Robô */
+.error-robot-img {
+    width: 220px;
+    height: auto;
+}
+
+/* Texto Muted */
+.text-muted-light {
+    color: var(--text-muted-light) !important;
+}
+
+/* Card Técnico */
+.technical-details-card {
+    background-color: var(--bg-dark-card);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.technical-header {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Tabs Técnicas */
+.technical-tabs .nav-link {
+    background-color: transparent;
+    color: var(--text-muted-light);
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 20px;
+}
+
+    .technical-tabs .nav-link.active {
+        color: white;
+        background-color: transparent;
+        border-bottom: 2px solid var(--orange-primary);
+    }
+
+/* Stack Trace */
+.stack-trace-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.pre-stack-trace {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-muted-light);
+    white-space: pre-wrap; /* Quebra linha */
+}
+
+    /* Nomes de Parâmetros na Stack Trace (Laranja) */
+    .pre-stack-trace .param-name {
+        color: var(--orange-light);
+    }
+
+/* Botões de Ação */
+.btn-orange-action {
+    background-color: var(--orange-primary);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+    .btn-orange-action:hover {
+        background-color: #d35400;
+        color: white;
+    }
+
+.btn-blue-outline-action {
+    background-color: transparent;
+    color: var(--blue-action);
+    border: 2px solid var(--blue-action);
+    padding: 12px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+    .btn-blue-outline-action:hover {
+        background-color: var(--blue-action);
+        color: white;
+    }
+
+/* Utilitários */
+.gap-3 {
+    gap: 1rem;
+}
+
+.text-orange-light {
+    color: var(--orange-light) !important;
+}
+
+.tracking-widest {
+    letter-spacing: 0.15em;
+}
